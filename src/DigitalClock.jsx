@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import './DigitalClock.css'
 
 function DigitalClock(){
@@ -33,6 +33,7 @@ function DigitalClock(){
 
     return(<>
     <div className='clock-container'>
+        <h1>Digital Clock</h1>
         <div className='clock'>
             <span>{formatTime()}</span>
 
